@@ -25,10 +25,10 @@ const BASE_CATEGORY_LIST = [
 ];
 
 const DEFAULT_USER_SETTINGS = {
-  currency: "BDT",
+  currency: "IDR",
   language: "en",
-  dateLocale: "en-GB",
-  timezone: "Asia/Dhaka",
+  dateLocale: "en-ID",
+  timezone: "Asia/Bangkok",
   weekStart: "monday",
   defaultRange: "all"
 };
@@ -52,9 +52,9 @@ const PASSWORD_RESET_CODE_TTL_MS = 5 * 60 * 1000;
 
 const SUPPORTED_DATE_RANGES = ["all", "month", "last30", "last7", "last1", "yearly", "custom"];
 const SUPPORTED_WEEK_STARTS = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
-const SUPPORTED_CURRENCIES = ["BDT", "USD", "EUR", "INR", "GBP"];
-const SUPPORTED_DATE_LOCALES = ["en-GB", "en-US", "en-CA"];
-const SUPPORTED_TIMEZONES = ["Asia/Dhaka", "UTC", "Asia/Kolkata", "Europe/London", "America/New_York"];
+const SUPPORTED_CURRENCIES = ["IDR", "USD", "EUR", "INR", "GBP"];
+const SUPPORTED_DATE_LOCALES = ["en-ID", "en-US", "en-CA"];
+const SUPPORTED_TIMEZONES = ["Asia/Bangkok", "UTC", "Asia/Kolkata", "Europe/London", "America/New_York"];
 const SUPPORTED_LANGUAGES = ["en", "bn", "hi"];
 const SUPPORTED_THEME_COLORS = ["emerald", "ocean", "sunset", "rose", "slate", "cobalt", "graphite", "amber"];
 
